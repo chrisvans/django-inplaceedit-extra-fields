@@ -20,7 +20,7 @@ from django.forms import widgets
 from django.forms.util import flatatt
 from django.template.loader import render_to_string
 from django.utils.safestring import mark_safe
-from json import JSONEncoder
+from simplejson import JSONEncoder
 
 
 def get_tinyMCE_js():
